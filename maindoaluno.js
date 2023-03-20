@@ -62,31 +62,31 @@ function gotResult(error, results) {
   prediction_2 = results[1].label;
   speak();
 
-
+  //Aicione 'results', pois essa palavra correspode aos resultados.
   //Adicione o número 0, pois ele corresponde a primeira previsão
-  if(results[???].label == "feliz")
+  if(???[???].label == "feliz")
   {
     document.getElementById("update_emoji").innerHTML = "&#128522;";
   }
-  if(results[???].label == "triste")
+  if(????[???].label == "triste")
   {
     document.getElementById("update_emoji").innerHTML = "&#128532;";
   }
-  if(results[???].label == "irritado")
+  if(???[???].label == "irritado")
   {
     document.getElementById("update_emoji").innerHTML = "&#128548;";
   }
 
   //Adicione o número 1, pois ele corresponde a segunda previsão
-  if(results[???].label == "feliz")
+  if(???[???].label == "feliz")
   {
     document.getElementById("update_emoji2").innerHTML = "&#128522;";
   }
-  if(results[???].label == "triste")
+  if(???[???].label == "triste")
   {
     document.getElementById("update_emoji2").innerHTML = "&#128532;";
   }
-  if(results[???].label == "irritado")
+  if(???[???].label == "irritado")
   {
     document.getElementById("update_emoji2").innerHTML = "&#128548;";
   }
