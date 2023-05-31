@@ -16,8 +16,8 @@ camera = ????
 
 Webcam.attach('#camera');
 
-      
-function take_snapshot()
+//Crie a função "      take_snapshot()"
+???
 {
     Webcam.snap(function(data_uri) {
         //Na linha 24, você deverá adicionar o id do resultado
